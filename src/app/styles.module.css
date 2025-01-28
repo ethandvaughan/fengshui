@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-image: linear-gradient(to right, #5E0B15, #9d4b55, #5E0B15);
+  color: #D9CAB3;
+}
+
+.footer {
+  padding: 1rem;
+  color: #D9CAB3;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #0E273C;
+}

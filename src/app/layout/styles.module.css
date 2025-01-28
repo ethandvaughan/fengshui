@@ -1,0 +1,10 @@
+.page {
+  
+  height: 100%;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+
+.mainContent {
+  background-image: radial-gradient(#D9CAB3, #BC8034);
+}

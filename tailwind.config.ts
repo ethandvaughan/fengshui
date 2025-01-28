@@ -9,6 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
+        'chocolate-cosmos': '#5E0B15',
+        'cordovan': '#90323D',
+        'dun': '#D9CAB3',
+        'bronze': '#BC8034',
+        'prussian-blue': '#0E273C',
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

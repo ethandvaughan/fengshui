@@ -128,25 +128,25 @@ export class Room {
 }
 
 
-// Define a rectangular room
-const perimeter = [
-  new Coordinate(0, 0),
-  new Coordinate(0, 6),
-  new Coordinate(9, 6),
-  new Coordinate(9, 0),
-  new Coordinate(0, 0), // Close the polygon
-];
+// // Define a rectangular room
+// const perimeter = [
+//   new Coordinate(0, 0),
+//   new Coordinate(0, 6),
+//   new Coordinate(9, 6),
+//   new Coordinate(9, 0),
+//   new Coordinate(0, 0), // Close the polygon
+// ];
 
-const room = new Room(perimeter);
+// const room = new Room(perimeter);
 
-// Add a door
-room.addDoor(new RoomFeature(new Coordinate(0, 3), new Coordinate(0, 4)));
+// // Add a door
+// room.addDoor(new RoomFeature(new Coordinate(0, 3), new Coordinate(0, 4)));
 
-// Add a window
-room.addWindow(new RoomFeature(new Coordinate(9, 4), new Coordinate(9, 5)));
-room.addWindow(new RoomFeature(new Coordinate(3, 0), new Coordinate(6, 0)));
+// // Add a window
+// room.addWindow(new RoomFeature(new Coordinate(9, 4), new Coordinate(9, 5)));
+// room.addWindow(new RoomFeature(new Coordinate(3, 0), new Coordinate(6, 0)));
 
-// Add a hallway
-room.addHallway(new RoomFeature(new Coordinate(0, 0), new Coordinate(3, 0)));
+// // Add a hallway
+// room.addHallway(new RoomFeature(new Coordinate(0, 0), new Coordinate(3, 0)));
 
-room.print();
+// room.print();
